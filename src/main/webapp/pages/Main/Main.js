@@ -5,7 +5,7 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
     $scope.onPageVariablesReady = function () {
         /*
          * variables can be accessed through '$scope.Variables' property here
-         * e.g. to get dataSet in a staticVariable named 'loggedInUser' use following script
+         * e.g. to get data in a static variable named 'loggedInUser' use following script
          * $scope.Variables.loggedInUser.getData()
          */
     };
